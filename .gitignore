@@ -1,0 +1,24 @@
+# Ignore internal groundwork directories and files
+**/internal_groundwork/
+
+# Ignore temporary or working files
+*.tmp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore system files
+*.~lock.*
+*.~*
+desktop.ini
